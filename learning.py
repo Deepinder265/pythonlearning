@@ -1,4 +1,4 @@
-a = 10  # integer
+a = 20  # integer
 print("The number is:", a)
 
 b = 109.12  # float
