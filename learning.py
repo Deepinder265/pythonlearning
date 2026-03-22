@@ -11,15 +11,12 @@ list_var = [10,20,30,40,50,90,19,21,45,67,37] #list is mutable
 list_var[1] = 702
 print(list_var[1])
 
-
 tuple_var = (10,20,30,40,50,90,19,21,45,67) # tuple is immutable
 #tuple_var[2] = 43 # this is not possible
 print(tuple_var[2])
 
 range_var = range(100)
 print(range_var[3])
-
-
 
 #"parminder", "deepinder", "inder"
 #10.1,19.2,
