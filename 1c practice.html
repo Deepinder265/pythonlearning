@@ -10,23 +10,23 @@
 
 	<form method="POST">
 		<fieldset>
-			<label>First name:</label><input type="text">
+			<label>First name:</label><input type="text" name="firstname">
 			<br>
-			<label>Last name: </label><input type="text"> 
+			<label>Last name: </label><input type="text" name="lastname"> 
 		    <br>
 		    <label>Gender:</label>
-		    <input type="radio" name="gender">Male
-		    <input type="radio"name="gender">Femail
-		    <input type="radio"name="gender">Other
+		    <input type="radio" name="gender" value="male">Male
+		    <input type="radio"name="gender"value="femail">Femail
+		    <input type="radio"name="gender" value="other">Other
             <br>
    			<label> country of Origin </label>
-   			<select>
-   				<option> SELECT </option>
-   				<option> INDIA </option>
-   				<option> CANADA </option>
-   				<option> FRANCE </option>
-   				<option> ITALY </option>
-   				<option> UK </option>
+   		     	<select name="country"> 
+   					<option> SELECT </option>
+   					<option> INDIA </option>
+   					<option> CANADA </option>
+   					<option> FRANCE </option>
+   					<option> ITALY </option>
+   					<option> UK </option>
    				</select>
    				<br>
  				<label>Notes:</label>
@@ -35,6 +35,15 @@
    				<br>
    				<br>
    				<input type="submit" value="Register">
+
+   			<br>
+ 			<label>Notes:</label>
+   			<textarea name="notes" cols="80"  rows="10">
+   			</textarea>
+   			<br>
+   			<br>
+   			<input type="submit" value="Register">
+
    			
 		</fieldset>
 	</form>
